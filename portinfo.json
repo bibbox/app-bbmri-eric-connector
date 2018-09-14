@@ -20,7 +20,7 @@
     },
 
         {
-      "id": "PORT_connector_9100",
+      "id": "§§PORT_connector_9100",
       "url": "§§INSTANCE-connector-9100",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
