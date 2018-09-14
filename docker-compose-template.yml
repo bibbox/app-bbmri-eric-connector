@@ -13,6 +13,8 @@ services:
       POSTGRES_PASS: samplystore
       CATALINA_OPTS: "-Xmx4g"
       ENABLE_METRICS: "true"
+    networks:
+    - bibbox-default-network
     ports:
     - "§§PORT_store_8080:8080"
     - "§§PORT_store_9100:9100"
