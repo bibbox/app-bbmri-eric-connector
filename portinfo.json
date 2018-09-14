@@ -13,7 +13,7 @@
       "proxy" : "PRIMARY"
     },
     {
-      "id": "§§PORT_8081",
+      "id": "§§PORT_connector_8080",
       "url": "§§INSTANCE-connector",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
