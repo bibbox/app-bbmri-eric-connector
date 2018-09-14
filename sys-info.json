@@ -1,4 +1,4 @@
 {
-  runningcontainers:["§§INSTANCE-store", "§§INSTANCE-store-db", "§§INSTANCE-connector", §§INSTANCE-connector-db"],
+  runningcontainers:["§§INSTANCE-store", "§§INSTANCE-store-db", "§§INSTANCE-connector", "§§INSTANCE-connector-db"],
   supportcontainers:[]
 }
