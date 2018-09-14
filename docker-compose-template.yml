@@ -54,6 +54,7 @@ services:
 
   §§INSTANCE-connector-db:
     image: postgres:9.6
+    container_name: §§INSTANCE-connector-db
     environment:
       POSTGRES_USER: samplyconnector
       POSTGRES_PASSWORD: samplyconnector
