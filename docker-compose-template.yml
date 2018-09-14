@@ -22,7 +22,7 @@ services:
 
   §§INSTANCE-store-db:
     image: postgres:9.6
-    container_name: §§INSTANCE-store-db:
+    container_name: §§INSTANCE-store-db
     environment:
       POSTGRES_USER: samplystore
       POSTGRES_PASSWORD: samplystore
