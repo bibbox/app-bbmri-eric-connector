@@ -1,0 +1,42 @@
+{
+  "mappings": [
+    {
+      "id": "§§PORT_8080",
+      "url": "§§INSTANCE",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+    {
+      "id": "§§PORT_9100",
+      "url": "§§INSTANCE-9100",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+    {
+      "id": "§§PORT_8081",
+      "url": "§§INSTANCE-connector",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+
+        {
+      "id": "PORT_9101",
+      "url": "§§INSTANCE-connector-9100",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+    {
+      "id": "§§PORT_5432_store_db",
+      "url": "§§INSTANCE-store-db",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    },
+    {
+      "id": "§§PORT_5432_connector_db",
+      "url": "§§INSTANCE-connector-db",
+      "protocol": "HTTP",
+      "proxy" : "PRIMARY"
+    }
+
+  ]
+}

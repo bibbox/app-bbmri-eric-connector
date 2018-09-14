@@ -1,0 +1,67 @@
+version: '2'
+networks:
+    bibbox-default-network:
+      external: true
+
+services:
+
+  §§INSTANCE-store:
+    image: samply/samply.store:4.2.4-2
+    container_name: §§INSTANCE-store
+    environment:
+      POSTGRES_HOST: §§INSTANCE-store-db
+      POSTGRES_PASS: samplystore
+      CATALINA_OPTS: "-Xmx4g"
+      ENABLE_METRICS: "true"
+    ports:
+    - "§§PORT_8080:8080"
+    - "§§PORT_9100:9100"
+    depends_on:
+    - §§INSTANCE-store-db
+    restart: always
+
+  §§INSTANCE-store-db:
+    image: postgres:9.6
+    container_name: §§INSTANCE-store-db:
+    environment:
+      POSTGRES_USER: samplystore
+      POSTGRES_PASSWORD: samplystore
+    ports:
+    - "§§PORT_5432_store_db:5432"
+    networks:
+    - bibbox-default-network
+    volumes:
+      - ./data/storedb/var/lib/postgresql/data:/var/lib/postgresql/data
+    restart: always
+
+  §§INSTANCE-connector:
+    image: akiel/samply.connector:0.1-alpha2
+    container_name: §§INSTANCE-connector
+    environment:
+      POSTGRES_HOST: §§INSTANCE-connector-db
+      POSTGRES_PASS: samplyconnector
+      STORE_URL: http://§§INSTANCE-store:8080/gba-store
+      CATALINA_OPTS: "-Xmx1g"
+      ENABLE_METRICS: "true"
+    networks:
+    - bibbox-default-network
+    ports:
+    - "§§PORT_8081:8081"
+    - "§§PORT_9100:9100"
+    depends_on:
+    - §§INSTANCE-connector-db
+    restart: always
+
+  §§INSTANCE-connector-db:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: samplyconnector
+      POSTGRES_PASSWORD: samplyconnector
+    ports:
+    - "§§PORT_5432_connector_db:5432"
+    networks:
+    - bibbox-default-network
+    volumes:
+      - ./data/connectordb/var/lib/postgresql/data:/var/lib/postgresql/data
+    restart: always
+

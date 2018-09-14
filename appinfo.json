@@ -1,0 +1,10 @@
+{
+		"name": "BBMRI-ERIC connector and store",
+		"short_name": "BBMRI-ERIC connector an",
+		"version": "V.x.x",
+		"description": "BBMRI-ERIC connector is the local component for a federated smaple search with the BBMRI-ERIC sample locator",
+        "short_description": "BBMRI-ERIC connector is the local component for a federated smaple search with the BBMRI-ERIC sample locator",
+		"catalogue_url": "",
+		"application_url": "",
+		"tags": ["BBMRI-ERIC, biobank"]
+}
