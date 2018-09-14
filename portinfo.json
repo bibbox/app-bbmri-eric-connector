@@ -1,7 +1,7 @@
 {
   "mappings": [
     {
-      "id": "§§PORT_8080",
+      "id": "§§PORT_store_8080",
       "url": "§§INSTANCE",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"

@@ -14,7 +14,7 @@ services:
       CATALINA_OPTS: "-Xmx4g"
       ENABLE_METRICS: "true"
     ports:
-    - "§§PORT_8080:8080"
+    - "§§PORT_store_8080:8080"
     - "§§PORT_store_9100:9100"
     depends_on:
     - §§INSTANCE-store-db
