@@ -7,8 +7,8 @@
       "proxy" : "PRIMARY"
     },
     {
-      "id": "§§PORT_9100",
-      "url": "§§INSTANCE-9100",
+      "id": "§§PORT_store_9100",
+      "url": "§§INSTANCE-store-9100",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"
     },
@@ -20,7 +20,7 @@
     },
 
         {
-      "id": "PORT_9101",
+      "id": "PORT_connector_9100",
       "url": "§§INSTANCE-connector-9100",
       "protocol": "HTTP",
       "proxy" : "PRIMARY"

@@ -15,7 +15,7 @@ services:
       ENABLE_METRICS: "true"
     ports:
     - "§§PORT_8080:8080"
-    - "§§PORT_9100:9100"
+    - "§§PORT_store_9100:9100"
     depends_on:
     - §§INSTANCE-store-db
     restart: always
@@ -47,7 +47,7 @@ services:
     - bibbox-default-network
     ports:
     - "§§PORT_8081:8081"
-    - "§§PORT_9100:9100"
+    - "§§PORT_connector_9100:9100"
     depends_on:
     - §§INSTANCE-connector-db
     restart: always
