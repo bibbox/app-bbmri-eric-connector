@@ -10,7 +10,7 @@ Clone the github repsoitory and start the install.sh. If necessary change the po
 
 ```shell
 $ git clone https://github.com/bibbox/app-bbmri-eric-connector
-$ cd app-nextcloud
+$ cd app-bbmri-eric-connector
 $ chmod +x install.sh
 $ ./install.sh
 ```
