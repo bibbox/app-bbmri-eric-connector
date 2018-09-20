@@ -1,0 +1,58 @@
+version: '2'
+
+services:
+
+  bibbox-store:
+    image: samply/samply.store:4.2.4-2
+    container_name: bibbox-store
+    environment:
+      POSTGRES_HOST: bibbox-store-db
+      POSTGRES_PASS: samplystore
+      CATALINA_OPTS: "-Xmx4g"
+      ENABLE_METRICS: "true"
+    ports:
+    - "8065:8080"
+    - "9100:9100"
+    depends_on:
+    - bibbox-store-db
+
+  bibbox-store-db:
+    image: postgres:9.6
+    container_name: bibbox-store-db
+    environment:
+      POSTGRES_USER: samplystore
+      POSTGRES_PASSWORD: samplystore
+    ports:
+    - "5432:5432"
+    volumes:
+      - ./data/storedb/var/lib/postgresql/data:/var/lib/postgresql/data
+
+  bibbox-connector:
+    image: akiel/samply.connector:0.1-alpha2
+    container_name: bibbox-connector
+    environment:
+      POSTGRES_HOST: bibbox-connector-db
+      POSTGRES_PASS: samplyconnector
+      STORE_URL: http://bibbox-store:8080/gba-store
+      CATALINA_OPTS: "-Xmx1g"
+      ENABLE_METRICS: "true"
+    ports:
+    - "8066:8080"
+    - "9101:9100"
+    depends_on:
+    - §§INSTANCE-connector-db
+    restart: always
+
+  bibbox-connector-db:
+    image: postgres:9.6
+    container_name: bibbox-connector-db
+    environment:
+      POSTGRES_USER: samplyconnector
+      POSTGRES_PASSWORD: samplyconnector
+    ports:
+    - "5433:5432"
+    networks:
+    - bibbox-default-network
+    volumes:
+      - ./data/connectordb/var/lib/postgresql/data:/var/lib/postgresql/data
+
