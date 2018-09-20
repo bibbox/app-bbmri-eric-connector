@@ -8,7 +8,7 @@ This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/
 
 Clone the github repsoitory and start the install.sh. If necessary change the ports and volume mounts in `docker-compose.yml`.  
 
-``shell
+```shell
 $ git clone https://github.com/bibbox/app-bbmri-eric-connector
 $ cd app-nextcloud
 $ chmod +x install.sh
