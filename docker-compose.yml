@@ -40,7 +40,7 @@ services:
     - "8066:8080"
     - "9101:9100"
     depends_on:
-    - §§INSTANCE-connector-db
+    - bibbox-connector-db
     restart: always
 
   bibbox-connector-db:
