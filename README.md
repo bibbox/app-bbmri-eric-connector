@@ -26,3 +26,8 @@ The BIBBOX framework can be installed
 
 After BIBBOX is up and running, you can use the [BIBBOX APP Store](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") to install a lot of software tools. 
 
+## Usefull links
+
+GBA Suchdatensatz Basis - Version 1.1 [http://mdr.germanbiobanknode.de/view.xhtml?namespace=mdr16](http://mdr.germanbiobanknode.de/view.xhtml?namespace=mdr16)
+
+Example XML and XSD [https://github.com/bibbox/app-bbmri-eric-connector/tree/master/examples](https://github.com/bibbox/app-bbmri-eric-connector/tree/master/examples)
