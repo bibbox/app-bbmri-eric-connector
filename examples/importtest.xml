@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="UTF-8"?> 
+<store xmlns="http://schema.samply.de/store">
+    <biobank id="BBMRI-ERIC:ID:AT_MUG">
+        <genericAttribute key="urn:mdr16:dataelement:2:1">Karine Sargsyan</genericAttribute> 
+        <genericAttribute key="urn:mdr16:dataelement:3:1">http://www.medunigraz.at/biobank</genericAttribute> 
+    </biobank>
+    
+    <collection id="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort" biobankId="BBMRI-ERIC:ID:AT_MUG">
+        <genericAttribute key="urn:mdr16:dataelement:5:1">"BioPersMed Cohort</genericAttribute> 
+    </collection>
+    <collection id="BBMRI-ERIC:ID:AT_MUG:ColorectalCancerCollection" biobankId="BBMRI-ERIC:ID:AT_MUG">
+        <genericAttribute key="urn:mdr16:dataelement:5:1">"Colorectal Cancer Collection</genericAttribute> 
+    </collection>
+    <collection id="BBMRI-ERIC:ID:AT_MUG:CryoCollection" biobankId="BBMRI-ERIC:ID:AT_MUG">
+        <genericAttribute key="urn:mdr16:dataelement:5:1">"Colorectal Cancer Collection</genericAttribute> 
+    </collection>    <collection id="BBMRI-ERIC:ID:AT_MUG:EPATHstudy" biobankId="BBMRI-ERIC:ID:AT_MUG">
+        <genericAttribute key="urn:mdr16:dataelement:5:1">"EPATH study</genericAttribute> 
+    </collection>
+    
+
+    <sampleContext id="CON31" donorId="MUG_665_150865">
+        <genericAttribute key="urn:mdr16:dataelement:20:1">liquid_sample_context</genericAttribute> 
+    </sampleContext>
+
+    <sample id="S000000001" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">01.01.2001</genericAttribute>   <!--Entnahmedatum-->
+    </sample>
+    <sample id="S000000002" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">02.02.2002</genericAttribute>   <!--Entnahmedatum-->
+    </sample>
+    <sample id="S000000003" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">03.03.2003</genericAttribute>   <!--Entnahmedatum-->
+    </sample>
+    <sample id="S000000004" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">04.04.2004</genericAttribute>   <!--Entnahmedatum-->
+    </sample>
+    <sample id="S000000005" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">05.05.2005</genericAttribute>    <!--Entnahmedatum-->
+    </sample>
+    <sample id="S000000006" sampleContextId="CON31" collectionId="BBMRI-ERIC:ID:AT_MUG:BioPersMedCohort">
+        <genericAttribute key="urn:mdr16:dataelement:12:1">06.06.2006</genericAttribute>    <!--Entnahmedatum-->
+    </sample>
+  
+    <donor id="MUG_665_150865">
+        <genericAttribute key="urn:mdr16:dataelement:22:1">15.08.1965</genericAttribute>    <!--Geburtsdatum-->
+        <genericAttribute key="urn:mdr16:dataelement:23:1">male</genericAttribute>          <!--Geschlecht biologisch-->
+    </donor>
+
+    <event id="EvN61" donorId="MUG_665_150865">
+        <genericAttribute key="urn:mdr16:dataelement:26:1">30.05.2002</genericAttribute>    <!--Diagnosedatum-->
+        <genericAttribute key="urn:mdr16:dataelement:27:1">A15.1</genericAttribute> 
+    </event>
+    <event id="EvN62" donorId="MUG_665_150865">
+        <genericAttribute key="urn:mdr16:dataelement:26:1">01.05.2003</genericAttribute>    <!--Diagnosedatum-->
+        <genericAttribute key="urn:mdr16:dataelement:27:1">I02.0</genericAttribute> 
+    </event>
+    
+
+</store>
