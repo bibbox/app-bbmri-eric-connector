@@ -1,0 +1,85 @@
+{
+  "_index": "dcrb",
+  "_type": "samples",
+  "_id": "SAMPLE--rdconnectdemo.demo.bibbox.org--147",
+  "_version": 6,
+  "_score": 1,
+  "_source": {
+    "context": {
+      "machine_id": "rd-biobank-template.bibbox.org"
+    },
+    "privacy": {
+      "share": "yes"
+    },
+    "preAnalytics": {
+      "donor": {
+        "features": [],
+        "disorders": [],
+        "family_history": {
+          "miscarriages": null,
+          "consanguinity": null,
+          "affectedRelatives": null
+        },
+        "clinical-diagnosis": [],
+        "sex": "F",
+        "date_of_birth": {
+          "month": 12,
+          "year": 1973,
+          "day": 15
+        },
+        "notes": {
+          "family_history": "",
+          "prenatal_development": "",
+          "indication_for_referral": "",
+          "genetic_notes": "",
+          "medical_history": "",
+          "diagnosis_notes": ""
+        },
+        "phenotype": "Affected",
+        "referringCenter": null,
+        "ParticipantID": "SUBJECT@phenotips.rd-biobank-template.bibbox.org::P0000012",
+        "birthPlace": null,
+        "Country": null
+      },
+      "collector": {},
+      "anatomical-structure": "Blood",
+      "primary-container": "UNKNOWN",
+      "type-of-collection": "UNKNOWN",
+      "bioHazards": "UNKNOWN"
+    },
+    "material": {
+      "label": "GC_9701_Pl_2017_1",
+      "guid": "SAMPLE--rdconnectdemo.demo.bibbox.org--147",
+      "materialClass": "Fluid",
+      "materialType": "Plasma",
+      "container": "",
+      "availableQty": [
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL",
+        "1.0 mL"
+      ],
+      "storageTemperature": "",
+      "fixationStabilization:": "",
+      "collectionid": "COLLECTION--rd-biobank-template.bibbox.org--1",
+      "biobankid": "BIOBANK--rd-biobank-template.bibbox.org"
+    },
+    "analytics": {
+      "affetcted-genes": [],
+      "labvalues": [],
+      "primary-container": "UNKNOWN",
+      "type-of-collection": "UNKNOWN"
+    },
+    "fairMetadata": {
+      "data-types-available": [],
+      "acess-restrictions": [],
+      "contact-point": {}
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_index": "dcrb",
+  "_type": "samples",
+  "_id": "SAMPLE--ebcd.demo.bibbox.org--213",
+  "_version": 1,
+  "_score": 1,
+  "_source": {
+    "context": {
+      "machine_id": "ebcd.bibbox.org"
+    },
+    "privacy": {
+      "share": "yes"
+    },
+    "preAnalytics": {
+      "donor": {
+        "features": [
+          {
+            "id": "HP:0000592",
+            "label": "Blue sclerae",
+            "type": "phenotype",
+            "observed": "yes"
+          },
+          {
+            "id": "HP:0001382",
+            "label": "Joint hypermobility",
+            "type": "phenotype",
+            "observed": "yes"
+          },
+          {
+            "id": "HP:0002757",
+            "label": "Recurrent fractures",
+            "type": "phenotype",
+            "observed": "yes"
+          }
+        ],
+        "disorders": [
+          {
+            "id": "MIM:166200",
+            "label": "OSTEOGENESIS IMPERFECTA, TYPE I"
+          }
+        ],
+        "family_history": {
+          "miscarriages": null,
+          "consanguinity": null,
+          "affectedRelatives": null
+        },
+        "clinical-diagnosis": [],
+        "sex": "F",
+        "date_of_birth": {
+          "month": 4,
+          "year": 1973,
+          "day": 8
+        },
+        "notes": {
+          "family_history": "",
+          "prenatal_development": "",
+          "indication_for_referral": "",
+          "genetic_notes": "c.386dupC (p.Gly130Trpfs*39)",
+          "medical_history": "",
+          "diagnosis_notes": ""
+        },
+        "phenotype": "Affected",
+        "referringCenter": null,
+        "ParticipantID": "SUBJECT@phenotips.ebcd.bibbox.org::P0000007",
+        "birthPlace": null,
+        "Country": null
+      },
+      "collector": {},
+      "anatomical-structure": "Colon, NOS",
+      "primary-container": "UNKNOWN",
+      "type-of-collection": "UNKNOWN",
+      "bioHazards": "UNKNOWN"
+    },
+    "material": {
+      "label": "4",
+      "guid": "SAMPLE--rdconnectdemo.demo.bibbox.org--213",
+      "materialClass": "Tissue",
+      "materialType": "Fixed Tissue Block",
+      "container": "",
+      "availableQty": [],
+      "storageTemperature": "",
+      "fixationStabilization:": "",
+      "collectionid": "COLLECTION--ebcd.bibbox.org--2",
+      "biobankid": "BIOBANK--ebcd.bibbox.org"
+    },
+    "analytics": {
+      "affetcted-genes": [],
+      "labvalues": [],
+      "primary-container": "UNKNOWN",
+      "type-of-collection": "UNKNOWN"
+    },
+    "fairMetadata": {
+      "data-types-available": [],
+      "acess-restrictions": [],
+      "contact-point": {}
+    }
+  }
+}
