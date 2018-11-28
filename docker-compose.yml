@@ -28,7 +28,7 @@ services:
       - ./data/storedb/var/lib/postgresql/data:/var/lib/postgresql/data
 
   bibbox-connector:
-    image: akiel/samply.connector:0.1-alpha3
+    image: akiel/samply.connector:0.1
     container_name: bibbox-connector
     environment:
       POSTGRES_HOST: bibbox-connector-db
