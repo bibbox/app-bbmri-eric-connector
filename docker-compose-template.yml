@@ -6,7 +6,7 @@ networks:
 services:
 
   §§INSTANCE-store:
-    image: samply/samply.store:4.2.4-2
+    image: samply/samply.store:4.2.5
     container_name: §§INSTANCE-store
     environment:
       POSTGRES_HOST: §§INSTANCE-store-db
@@ -37,7 +37,7 @@ services:
     restart: always
 
   §§INSTANCE-connector:
-    image: akiel/samply.connector:0.1-alpha2
+    image: akiel/samply.connector:0.1-alpha3
     container_name: §§INSTANCE-connector
     environment:
       POSTGRES_HOST: §§INSTANCE-connector-db

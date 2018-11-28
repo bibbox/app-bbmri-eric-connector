@@ -3,7 +3,7 @@ version: '2'
 services:
 
   bibbox-store:
-    image: samply/samply.store:4.2.4-2
+    image: samply/samply.store:4.2.5
     container_name: bibbox-store
     environment:
       POSTGRES_HOST: bibbox-store-db
@@ -28,7 +28,7 @@ services:
       - ./data/storedb/var/lib/postgresql/data:/var/lib/postgresql/data
 
   bibbox-connector:
-    image: akiel/samply.connector:0.1-alpha2
+    image: akiel/samply.connector:0.1-alpha3
     container_name: bibbox-connector
     environment:
       POSTGRES_HOST: bibbox-connector-db
