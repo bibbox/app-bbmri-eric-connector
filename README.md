@@ -18,12 +18,12 @@ Open in a browser e [http://127.0.0.1:8065](http://127.0.0.1:8065)
 
 ### Store 
 
-* GET http://appID.your.bibbox.domain/gba-store/importXSD 
-* POST http://appID.your.bibbox.domain/gba-store/import to insert data in the store
+* GET http://127.0.0.1:8065/gba-store/importXSD 
+* POST http://127.0.0.1:8065/gba-store/import to insert data in the store
 
 ### Connector
 
-* http://appID-connector.your.bibbox.domain/gba-connector/login.xhtml
+* http://127.0.0.1:8066/gba-connector/login.xhtml
 * default login: pass / adminpass
 
 
