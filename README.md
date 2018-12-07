@@ -16,6 +16,16 @@ $ ./install.sh
 ```
 Open in a browser e [http://127.0.0.1:8065](http://127.0.0.1:8065)
 
+### Store 
+
+* GET http://appID.your.bibbox.domain/gba-store/importXSD 
+* POST http://appID.your.bibbox.domain/gba-store/import to insert data in the store
+
+### Connector
+
+* http://appID-connector.your.bibbox.domain/gba-connector/login.xhtml
+* default login: pass / adminpass
+
 
 ## Install within BIBBOX
 
