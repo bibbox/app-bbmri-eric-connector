@@ -2,7 +2,7 @@
 
 This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") or standalone. 
 
-* after the docker installation follow these [instructions](https://github.com/bibbox/app-seeddms/blob/master/INSTALL-APP.md)
+* after the docker installation follow these [instructions](https://github.com/bibbox/app-bbmri-eric-connector/blob/master/INSTALL-APP.md)
 
 ## Standalone Installation
 
