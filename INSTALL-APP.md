@@ -12,7 +12,3 @@
 * http://appID-connector.your.bibbox.domain/gba-connector/login.xhtml
 * default login: pass / adminpass
 
-
-Have a nice ride with the new Admins youngtimer.
-
-![FINAL](install-screen-final.jpg)
