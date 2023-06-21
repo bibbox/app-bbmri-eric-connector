@@ -1,4 +1,5 @@
 # BBMRI-ERIC CONNECTOR application
+## IMPORTANT: This repository is deprecated and should not be used.
 
 This container can be installed as [BIBBOX APP](http://bibbox.readthedocs.io/en/latest/admin-documentation/ "BIBBOX App Store") or standalone. 
 
